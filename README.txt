@@ -1,0 +1,1 @@
+Originally meant to be a simple electronics type mod for minetest inspired by redstones, I messed around with the code after getting bored and got this weird mod, and now it's this thing. Enjoy i guess?

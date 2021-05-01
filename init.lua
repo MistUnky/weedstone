@@ -1,5 +1,5 @@
 minetest.register_node("weedstone:stone_with_weedstone", {
-	description = "Stone with weedstone Ore",
+	description = "Stone with Weedstone Ore",
 	tiles = {"default_stone.png^weedstone_mineral_weedstone.png"},
 	groups = {cracky = 3},
 	drop = "weedstone:neutral_off",
@@ -48,28 +48,28 @@ minetest.register_craft({
 })
 
 minetest.register_node("weedstone:neutral_off", {
-	description = "weedstone NOP (off)",
+	description = "Weedstone NOP (off)",
 	tiles = {"weedstone_neutral_off.png"},
 	groups = {cracky = 3},
 	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("weedstone:neutral_on", {
-	description = "weedstone NOP (on)",
+	description = "Weedstone NOP (on)",
 	tiles = {"weedstone_neutral_on.png"},
 	groups = {cracky = 3},
 	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("weedstone:wire_off", {
-	description = "weedstone INQ (off)",
+	description = "Weedstone INQ (off)",
 	tiles = {"weedstone_wire_off.png"},
 	groups = {cracky = 3},
 	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("weedstone:wire_on", {
-	description = "weedstone INQ (on)",
+	description = "Weedstone INQ (on)",
 	tiles = {"weedstone_wire_on.png"},
 	groups = {cracky = 3, not_in_creative_inventory = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -77,7 +77,7 @@ minetest.register_node("weedstone:wire_on", {
 })
 
 minetest.register_node("weedstone:torch_off", {
-	description = "weedstone CMP (off)",
+	description = "Weedstone CMP (off)",
 	tiles = {"weedstone_torch_off.png"},
 	groups = {cracky = 3, not_in_creative_inventory = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -85,7 +85,7 @@ minetest.register_node("weedstone:torch_off", {
 })
 
 minetest.register_node("weedstone:torch_on", {
-	description = "weedstone CMP (on)",
+	description = "Weedstone CMP (on)",
 	tiles = {"weedstone_torch_on.png"},
 	groups = {cracky = 3},
 	sounds = default.node_sound_stone_defaults(),
